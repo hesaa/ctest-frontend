@@ -12,6 +12,15 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
+```
+## ENV
+
+First, run the development server:
+
+```bash
+NEXT_PUBLIC_API_URL=http://localhost:8000/api
+HOST=http://localhost:8000/api
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
